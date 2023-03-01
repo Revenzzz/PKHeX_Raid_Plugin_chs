@@ -1,4 +1,4 @@
-﻿using PKHeX.Core;
+using PKHeX.Core;
 using System;
 using System.Windows.Forms;
 
@@ -38,11 +38,11 @@ namespace PKHeX_Raid_Plugin
 
             var pkm = _raids.GenerateFromIndex(raidParameters);
             var s = GameInfo.Strings;
-            L_Ability.Text = $"Ability: {s.Ability[pkm.Ability]}";
-            L_Nature.Text = $"Nature: {s.natures[pkm.Nature]}";
-            L_ShinyInFrames.Text = $"Next Shiny Frame: {RandUtil.GetNextShinyFrame(raidParameters.Seed)}";
+            L_Ability.Text = $"特性: {s.Ability[pkm.Ability]}";
+            L_Nature.Text = $"性格: {s.natures[pkm.Nature]}";
+            L_ShinyInFrames.Text = $"下一个闪光巢穴: {RandUtil.GetNextShinyFrame(raidParameters.Seed)}帧";
             L_Shiny.Visible = pkm.ShinyType != 0;
-            L_Shiny.Text = pkm.ShinyType == 1 ? "Shiny: Star" : pkm.ShinyType == 2? (pkm.ForcedShinyType == 2 ? "Shiny: Forced Square" : "Shiny: Square!!!") : "Shiny locked";
+            L_Shiny.Text = pkm.ShinyType == 1 ? "闪光: Star" : pkm.ShinyType == 2? (pkm.ForcedShinyType == 2 ? "闪光: 强制方块闪" : "闪光: 方块闪!!!") : "闪光: 锁定";
 
             for (int i = 0; i < 6; i++) { 
                 IVs[i].Text = $"{pkm.IVs[i]:00}";

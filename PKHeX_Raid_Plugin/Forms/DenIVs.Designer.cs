@@ -129,19 +129,19 @@
             this.ShinyCell,
             this.SeedCell});
             this.raidContent.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.raidContent.Location = new System.Drawing.Point(0, 231);
+            this.raidContent.Location = new System.Drawing.Point(0, 213);
             this.raidContent.Margin = new System.Windows.Forms.Padding(2);
             this.raidContent.Name = "raidContent";
             this.raidContent.ReadOnly = true;
             this.raidContent.RowHeadersWidth = 51;
             this.raidContent.RowTemplate.Height = 24;
-            this.raidContent.Size = new System.Drawing.Size(946, 478);
+            this.raidContent.Size = new System.Drawing.Size(946, 441);
             this.raidContent.TabIndex = 0;
             // 
             // FrameCell
             // 
             this.FrameCell.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.FrameCell.HeaderText = "Frame Advances";
+            this.FrameCell.HeaderText = "帧";
             this.FrameCell.MinimumWidth = 6;
             this.FrameCell.Name = "FrameCell";
             this.FrameCell.ReadOnly = true;
@@ -159,7 +159,7 @@
             // AtkCell
             // 
             this.AtkCell.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.AtkCell.HeaderText = "ATK";
+            this.AtkCell.HeaderText = "攻击";
             this.AtkCell.MinimumWidth = 6;
             this.AtkCell.Name = "AtkCell";
             this.AtkCell.ReadOnly = true;
@@ -168,7 +168,7 @@
             // DefCell
             // 
             this.DefCell.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.DefCell.HeaderText = "DEF";
+            this.DefCell.HeaderText = "防御";
             this.DefCell.MinimumWidth = 6;
             this.DefCell.Name = "DefCell";
             this.DefCell.ReadOnly = true;
@@ -177,7 +177,7 @@
             // SpaCell
             // 
             this.SpaCell.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.SpaCell.HeaderText = "SPA";
+            this.SpaCell.HeaderText = "特攻";
             this.SpaCell.MinimumWidth = 6;
             this.SpaCell.Name = "SpaCell";
             this.SpaCell.ReadOnly = true;
@@ -186,7 +186,7 @@
             // SpdCell
             // 
             this.SpdCell.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.SpdCell.HeaderText = "SPD";
+            this.SpdCell.HeaderText = "特防";
             this.SpdCell.MinimumWidth = 6;
             this.SpdCell.Name = "SpdCell";
             this.SpdCell.ReadOnly = true;
@@ -195,7 +195,7 @@
             // SpeCell
             // 
             this.SpeCell.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.SpeCell.HeaderText = "SPE";
+            this.SpeCell.HeaderText = "速度";
             this.SpeCell.MinimumWidth = 6;
             this.SpeCell.Name = "SpeCell";
             this.SpeCell.ReadOnly = true;
@@ -204,7 +204,7 @@
             // NatureCell
             // 
             this.NatureCell.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.NatureCell.HeaderText = "Nature";
+            this.NatureCell.HeaderText = "性格";
             this.NatureCell.MinimumWidth = 6;
             this.NatureCell.Name = "NatureCell";
             this.NatureCell.ReadOnly = true;
@@ -213,7 +213,7 @@
             // AbilityCell
             // 
             this.AbilityCell.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.AbilityCell.HeaderText = "Ability";
+            this.AbilityCell.HeaderText = "特性";
             this.AbilityCell.MinimumWidth = 6;
             this.AbilityCell.Name = "AbilityCell";
             this.AbilityCell.ReadOnly = true;
@@ -222,7 +222,7 @@
             // GenderCell
             // 
             this.GenderCell.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.GenderCell.HeaderText = "Gender";
+            this.GenderCell.HeaderText = "性别";
             this.GenderCell.MinimumWidth = 6;
             this.GenderCell.Name = "GenderCell";
             this.GenderCell.ReadOnly = true;
@@ -231,7 +231,7 @@
             // ShinyCell
             // 
             this.ShinyCell.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.ShinyCell.HeaderText = "Shiny";
+            this.ShinyCell.HeaderText = "闪光";
             this.ShinyCell.MinimumWidth = 6;
             this.ShinyCell.Name = "ShinyCell";
             this.ShinyCell.ReadOnly = true;
@@ -251,14 +251,14 @@
             // 
             this.DetailsBox.Controls.Add(this.groupBox2);
             this.DetailsBox.Controls.Add(this.groupBox1);
-            this.DetailsBox.Location = new System.Drawing.Point(9, 10);
+            this.DetailsBox.Location = new System.Drawing.Point(9, 9);
             this.DetailsBox.Margin = new System.Windows.Forms.Padding(2);
             this.DetailsBox.Name = "DetailsBox";
             this.DetailsBox.Padding = new System.Windows.Forms.Padding(2);
-            this.DetailsBox.Size = new System.Drawing.Size(927, 217);
+            this.DetailsBox.Size = new System.Drawing.Size(927, 200);
             this.DetailsBox.TabIndex = 1;
             this.DetailsBox.TabStop = false;
-            this.DetailsBox.Text = "Details";
+            this.DetailsBox.Text = "详情";
             // 
             // groupBox2
             // 
@@ -299,45 +299,45 @@
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Location = new System.Drawing.Point(296, 17);
+            this.groupBox2.Location = new System.Drawing.Point(296, 16);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Size = new System.Drawing.Size(613, 188);
+            this.groupBox2.Size = new System.Drawing.Size(613, 174);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Filters";
+            this.groupBox2.Text = "过滤器";
             // 
             // searchButton
             // 
-            this.searchButton.Location = new System.Drawing.Point(436, 147);
+            this.searchButton.Location = new System.Drawing.Point(436, 136);
             this.searchButton.Margin = new System.Windows.Forms.Padding(2);
             this.searchButton.Name = "searchButton";
-            this.searchButton.Size = new System.Drawing.Size(91, 24);
+            this.searchButton.Size = new System.Drawing.Size(91, 22);
             this.searchButton.TabIndex = 35;
-            this.searchButton.Text = "Search";
+            this.searchButton.Text = "搜索";
             this.searchButton.UseVisualStyleBackColor = true;
             this.searchButton.Click += new System.EventHandler(this.SearchButton_Click);
             // 
             // resetFilter
             // 
-            this.resetFilter.Location = new System.Drawing.Point(316, 147);
+            this.resetFilter.Location = new System.Drawing.Point(316, 136);
             this.resetFilter.Margin = new System.Windows.Forms.Padding(2);
             this.resetFilter.Name = "resetFilter";
-            this.resetFilter.Size = new System.Drawing.Size(91, 24);
+            this.resetFilter.Size = new System.Drawing.Size(91, 22);
             this.resetFilter.TabIndex = 34;
-            this.resetFilter.Text = "Reset Filter";
+            this.resetFilter.Text = "重置过滤器";
             this.resetFilter.UseVisualStyleBackColor = true;
             this.resetFilter.Click += new System.EventHandler(this.ResetFilter_Click);
             // 
             // applyFilter
             // 
-            this.applyFilter.Location = new System.Drawing.Point(196, 147);
+            this.applyFilter.Location = new System.Drawing.Point(196, 136);
             this.applyFilter.Margin = new System.Windows.Forms.Padding(2);
             this.applyFilter.Name = "applyFilter";
-            this.applyFilter.Size = new System.Drawing.Size(91, 24);
+            this.applyFilter.Size = new System.Drawing.Size(91, 22);
             this.applyFilter.TabIndex = 33;
-            this.applyFilter.Text = "Apply Filter";
+            this.applyFilter.Text = "应用过滤器";
             this.applyFilter.UseVisualStyleBackColor = true;
             this.applyFilter.Click += new System.EventHandler(this.ApplyFilter_Click);
             // 
@@ -346,35 +346,35 @@
             this.shinyBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.shinyBox.FormattingEnabled = true;
             this.shinyBox.Items.AddRange(new object[] {
-            "Any",
-            "Yes (Any Type)",
-            "No",
-            "Star",
-            "Square"});
-            this.shinyBox.Location = new System.Drawing.Point(436, 114);
+            "任意",
+            "星闪/方闪",
+            "不闪",
+            "星闪",
+            "方闪"});
+            this.shinyBox.Location = new System.Drawing.Point(436, 105);
             this.shinyBox.Margin = new System.Windows.Forms.Padding(2);
             this.shinyBox.Name = "shinyBox";
-            this.shinyBox.Size = new System.Drawing.Size(115, 21);
+            this.shinyBox.Size = new System.Drawing.Size(115, 20);
             this.shinyBox.TabIndex = 32;
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(196, 114);
+            this.label23.Location = new System.Drawing.Point(196, 105);
             this.label23.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(33, 13);
+            this.label23.Size = new System.Drawing.Size(29, 12);
             this.label23.TabIndex = 31;
-            this.label23.Text = "Shiny";
+            this.label23.Text = "闪光";
             // 
             // genderBox
             // 
             this.genderBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.genderBox.FormattingEnabled = true;
-            this.genderBox.Location = new System.Drawing.Point(436, 89);
+            this.genderBox.Location = new System.Drawing.Point(436, 82);
             this.genderBox.Margin = new System.Windows.Forms.Padding(2);
             this.genderBox.Name = "genderBox";
-            this.genderBox.Size = new System.Drawing.Size(115, 21);
+            this.genderBox.Size = new System.Drawing.Size(115, 20);
             this.genderBox.TabIndex = 30;
             // 
             // abilityBox
@@ -382,10 +382,10 @@
             this.abilityBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.abilityBox.DropDownWidth = 135;
             this.abilityBox.FormattingEnabled = true;
-            this.abilityBox.Location = new System.Drawing.Point(436, 65);
+            this.abilityBox.Location = new System.Drawing.Point(436, 60);
             this.abilityBox.Margin = new System.Windows.Forms.Padding(2);
             this.abilityBox.Name = "abilityBox";
-            this.abilityBox.Size = new System.Drawing.Size(115, 21);
+            this.abilityBox.Size = new System.Drawing.Size(115, 20);
             this.abilityBox.TabIndex = 29;
             // 
             // natureBox
@@ -396,105 +396,105 @@
             this.natureBox.DropDownHeight = 1;
             this.natureBox.FormattingEnabled = true;
             this.natureBox.IntegralHeight = false;
-            this.natureBox.Location = new System.Drawing.Point(436, 41);
+            this.natureBox.Location = new System.Drawing.Point(436, 38);
             this.natureBox.Name = "natureBox";
-            this.natureBox.Size = new System.Drawing.Size(115, 21);
+            this.natureBox.Size = new System.Drawing.Size(115, 22);
             this.natureBox.TabIndex = 28;
             this.natureBox.ValueSeparator = ", ";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(196, 89);
+            this.label22.Location = new System.Drawing.Point(196, 82);
             this.label22.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(42, 13);
+            this.label22.Size = new System.Drawing.Size(29, 12);
             this.label22.TabIndex = 27;
-            this.label22.Text = "Gender";
+            this.label22.Text = "性别";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(196, 65);
+            this.label21.Location = new System.Drawing.Point(196, 60);
             this.label21.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(34, 13);
+            this.label21.Size = new System.Drawing.Size(29, 12);
             this.label21.TabIndex = 26;
-            this.label21.Text = "Ability";
+            this.label21.Text = "特性";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(196, 41);
+            this.label20.Location = new System.Drawing.Point(196, 38);
             this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(39, 13);
+            this.label20.Size = new System.Drawing.Size(29, 12);
             this.label20.TabIndex = 25;
-            this.label20.Text = "Nature";
+            this.label20.Text = "性格";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(100, 146);
+            this.label19.Location = new System.Drawing.Point(100, 135);
             this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(14, 13);
+            this.label19.Size = new System.Drawing.Size(11, 12);
             this.label19.TabIndex = 24;
             this.label19.Text = "~";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(100, 126);
+            this.label18.Location = new System.Drawing.Point(100, 116);
             this.label18.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(14, 13);
+            this.label18.Size = new System.Drawing.Size(11, 12);
             this.label18.TabIndex = 23;
             this.label18.Text = "~";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(100, 106);
+            this.label17.Location = new System.Drawing.Point(100, 98);
             this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(14, 13);
+            this.label17.Size = new System.Drawing.Size(11, 12);
             this.label17.TabIndex = 22;
             this.label17.Text = "~";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(100, 85);
+            this.label16.Location = new System.Drawing.Point(100, 78);
             this.label16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(14, 13);
+            this.label16.Size = new System.Drawing.Size(11, 12);
             this.label16.TabIndex = 21;
             this.label16.Text = "~";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(100, 65);
+            this.label15.Location = new System.Drawing.Point(100, 60);
             this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(14, 13);
+            this.label15.Size = new System.Drawing.Size(11, 12);
             this.label15.TabIndex = 20;
             this.label15.Text = "~";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(100, 45);
+            this.label14.Location = new System.Drawing.Point(100, 42);
             this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(14, 13);
+            this.label14.Size = new System.Drawing.Size(11, 12);
             this.label14.TabIndex = 12;
             this.label14.Text = "~";
             // 
             // maxSpe
             // 
-            this.maxSpe.Location = new System.Drawing.Point(114, 142);
+            this.maxSpe.Location = new System.Drawing.Point(114, 131);
             this.maxSpe.Margin = new System.Windows.Forms.Padding(2);
             this.maxSpe.Maximum = new decimal(new int[] {
             31,
@@ -502,7 +502,7 @@
             0,
             0});
             this.maxSpe.Name = "maxSpe";
-            this.maxSpe.Size = new System.Drawing.Size(32, 20);
+            this.maxSpe.Size = new System.Drawing.Size(32, 21);
             this.maxSpe.TabIndex = 19;
             this.maxSpe.Value = new decimal(new int[] {
             31,
@@ -512,7 +512,7 @@
             // 
             // maxSpd
             // 
-            this.maxSpd.Location = new System.Drawing.Point(114, 122);
+            this.maxSpd.Location = new System.Drawing.Point(114, 113);
             this.maxSpd.Margin = new System.Windows.Forms.Padding(2);
             this.maxSpd.Maximum = new decimal(new int[] {
             31,
@@ -520,7 +520,7 @@
             0,
             0});
             this.maxSpd.Name = "maxSpd";
-            this.maxSpd.Size = new System.Drawing.Size(32, 20);
+            this.maxSpd.Size = new System.Drawing.Size(32, 21);
             this.maxSpd.TabIndex = 18;
             this.maxSpd.Value = new decimal(new int[] {
             31,
@@ -530,7 +530,7 @@
             // 
             // maxSpa
             // 
-            this.maxSpa.Location = new System.Drawing.Point(114, 102);
+            this.maxSpa.Location = new System.Drawing.Point(114, 94);
             this.maxSpa.Margin = new System.Windows.Forms.Padding(2);
             this.maxSpa.Maximum = new decimal(new int[] {
             31,
@@ -538,7 +538,7 @@
             0,
             0});
             this.maxSpa.Name = "maxSpa";
-            this.maxSpa.Size = new System.Drawing.Size(32, 20);
+            this.maxSpa.Size = new System.Drawing.Size(32, 21);
             this.maxSpa.TabIndex = 17;
             this.maxSpa.Value = new decimal(new int[] {
             31,
@@ -548,7 +548,7 @@
             // 
             // maxDef
             // 
-            this.maxDef.Location = new System.Drawing.Point(114, 81);
+            this.maxDef.Location = new System.Drawing.Point(114, 75);
             this.maxDef.Margin = new System.Windows.Forms.Padding(2);
             this.maxDef.Maximum = new decimal(new int[] {
             31,
@@ -556,7 +556,7 @@
             0,
             0});
             this.maxDef.Name = "maxDef";
-            this.maxDef.Size = new System.Drawing.Size(32, 20);
+            this.maxDef.Size = new System.Drawing.Size(32, 21);
             this.maxDef.TabIndex = 16;
             this.maxDef.Value = new decimal(new int[] {
             31,
@@ -566,7 +566,7 @@
             // 
             // maxAtk
             // 
-            this.maxAtk.Location = new System.Drawing.Point(114, 61);
+            this.maxAtk.Location = new System.Drawing.Point(114, 56);
             this.maxAtk.Margin = new System.Windows.Forms.Padding(2);
             this.maxAtk.Maximum = new decimal(new int[] {
             31,
@@ -574,7 +574,7 @@
             0,
             0});
             this.maxAtk.Name = "maxAtk";
-            this.maxAtk.Size = new System.Drawing.Size(32, 20);
+            this.maxAtk.Size = new System.Drawing.Size(32, 21);
             this.maxAtk.TabIndex = 15;
             this.maxAtk.Value = new decimal(new int[] {
             31,
@@ -584,7 +584,7 @@
             // 
             // maxHP
             // 
-            this.maxHP.Location = new System.Drawing.Point(114, 41);
+            this.maxHP.Location = new System.Drawing.Point(114, 38);
             this.maxHP.Margin = new System.Windows.Forms.Padding(2);
             this.maxHP.Maximum = new decimal(new int[] {
             31,
@@ -592,7 +592,7 @@
             0,
             0});
             this.maxHP.Name = "maxHP";
-            this.maxHP.Size = new System.Drawing.Size(32, 20);
+            this.maxHP.Size = new System.Drawing.Size(32, 21);
             this.maxHP.TabIndex = 14;
             this.maxHP.Value = new decimal(new int[] {
             31,
@@ -602,7 +602,7 @@
             // 
             // MinSpe
             // 
-            this.MinSpe.Location = new System.Drawing.Point(64, 142);
+            this.MinSpe.Location = new System.Drawing.Point(64, 131);
             this.MinSpe.Margin = new System.Windows.Forms.Padding(2);
             this.MinSpe.Maximum = new decimal(new int[] {
             31,
@@ -610,12 +610,12 @@
             0,
             0});
             this.MinSpe.Name = "MinSpe";
-            this.MinSpe.Size = new System.Drawing.Size(32, 20);
+            this.MinSpe.Size = new System.Drawing.Size(32, 21);
             this.MinSpe.TabIndex = 13;
             // 
             // minSpd
             // 
-            this.minSpd.Location = new System.Drawing.Point(64, 122);
+            this.minSpd.Location = new System.Drawing.Point(64, 113);
             this.minSpd.Margin = new System.Windows.Forms.Padding(2);
             this.minSpd.Maximum = new decimal(new int[] {
             31,
@@ -623,12 +623,12 @@
             0,
             0});
             this.minSpd.Name = "minSpd";
-            this.minSpd.Size = new System.Drawing.Size(32, 20);
+            this.minSpd.Size = new System.Drawing.Size(32, 21);
             this.minSpd.TabIndex = 12;
             // 
             // minSpa
             // 
-            this.minSpa.Location = new System.Drawing.Point(64, 102);
+            this.minSpa.Location = new System.Drawing.Point(64, 94);
             this.minSpa.Margin = new System.Windows.Forms.Padding(2);
             this.minSpa.Maximum = new decimal(new int[] {
             31,
@@ -636,12 +636,12 @@
             0,
             0});
             this.minSpa.Name = "minSpa";
-            this.minSpa.Size = new System.Drawing.Size(32, 20);
+            this.minSpa.Size = new System.Drawing.Size(32, 21);
             this.minSpa.TabIndex = 11;
             // 
             // minDef
             // 
-            this.minDef.Location = new System.Drawing.Point(64, 81);
+            this.minDef.Location = new System.Drawing.Point(64, 75);
             this.minDef.Margin = new System.Windows.Forms.Padding(2);
             this.minDef.Maximum = new decimal(new int[] {
             31,
@@ -649,12 +649,12 @@
             0,
             0});
             this.minDef.Name = "minDef";
-            this.minDef.Size = new System.Drawing.Size(32, 20);
+            this.minDef.Size = new System.Drawing.Size(32, 21);
             this.minDef.TabIndex = 10;
             // 
             // minAtk
             // 
-            this.minAtk.Location = new System.Drawing.Point(64, 61);
+            this.minAtk.Location = new System.Drawing.Point(64, 56);
             this.minAtk.Margin = new System.Windows.Forms.Padding(2);
             this.minAtk.Maximum = new decimal(new int[] {
             31,
@@ -662,12 +662,12 @@
             0,
             0});
             this.minAtk.Name = "minAtk";
-            this.minAtk.Size = new System.Drawing.Size(32, 20);
+            this.minAtk.Size = new System.Drawing.Size(32, 21);
             this.minAtk.TabIndex = 9;
             // 
             // minHP
             // 
-            this.minHP.Location = new System.Drawing.Point(64, 41);
+            this.minHP.Location = new System.Drawing.Point(64, 38);
             this.minHP.Margin = new System.Windows.Forms.Padding(2);
             this.minHP.Maximum = new decimal(new int[] {
             31,
@@ -675,88 +675,88 @@
             0,
             0});
             this.minHP.Name = "minHP";
-            this.minHP.Size = new System.Drawing.Size(32, 20);
+            this.minHP.Size = new System.Drawing.Size(32, 21);
             this.minHP.TabIndex = 8;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(20, 146);
+            this.label13.Location = new System.Drawing.Point(20, 135);
             this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(28, 13);
+            this.label13.Size = new System.Drawing.Size(29, 12);
             this.label13.TabIndex = 7;
-            this.label13.Text = "SPE";
+            this.label13.Text = "速度";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(20, 126);
+            this.label12.Location = new System.Drawing.Point(20, 116);
             this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(29, 13);
+            this.label12.Size = new System.Drawing.Size(29, 12);
             this.label12.TabIndex = 6;
-            this.label12.Text = "SPD";
+            this.label12.Text = "特防";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(20, 106);
+            this.label11.Location = new System.Drawing.Point(20, 98);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(28, 13);
+            this.label11.Size = new System.Drawing.Size(29, 12);
             this.label11.TabIndex = 5;
-            this.label11.Text = "SPA";
+            this.label11.Text = "特攻";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(20, 85);
+            this.label10.Location = new System.Drawing.Point(20, 78);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(28, 13);
+            this.label10.Size = new System.Drawing.Size(29, 12);
             this.label10.TabIndex = 4;
-            this.label10.Text = "DEF";
+            this.label10.Text = "防御";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(20, 65);
+            this.label9.Location = new System.Drawing.Point(20, 60);
             this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(28, 13);
+            this.label9.Size = new System.Drawing.Size(29, 12);
             this.label9.TabIndex = 3;
-            this.label9.Text = "ATK";
+            this.label9.Text = "攻击";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(20, 45);
+            this.label8.Location = new System.Drawing.Point(20, 42);
             this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(22, 13);
+            this.label8.Size = new System.Drawing.Size(17, 12);
             this.label8.TabIndex = 2;
             this.label8.Text = "HP";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(113, 21);
+            this.label7.Location = new System.Drawing.Point(112, 19);
             this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(40, 13);
+            this.label7.Size = new System.Drawing.Size(53, 12);
             this.label7.TabIndex = 1;
-            this.label7.Text = "Max IV";
+            this.label7.Text = "最大个体";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(62, 21);
+            this.label6.Location = new System.Drawing.Point(55, 19);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(37, 13);
+            this.label6.Size = new System.Drawing.Size(53, 12);
             this.label6.TabIndex = 0;
-            this.label6.Text = "Min IV";
+            this.label6.Text = "最小个体";
             // 
             // groupBox1
             // 
@@ -771,41 +771,41 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(4, 17);
+            this.groupBox1.Location = new System.Drawing.Point(4, 16);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(280, 188);
+            this.groupBox1.Size = new System.Drawing.Size(280, 174);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Raid Details";
+            this.groupBox1.Text = "巢穴详情";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(182, 118);
+            this.label5.Location = new System.Drawing.Point(182, 109);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(14, 13);
+            this.label5.Size = new System.Drawing.Size(11, 12);
             this.label5.TabIndex = 11;
             this.label5.Text = "~";
             // 
             // endFrame
             // 
-            this.endFrame.Location = new System.Drawing.Point(198, 114);
+            this.endFrame.Location = new System.Drawing.Point(198, 105);
             this.endFrame.Margin = new System.Windows.Forms.Padding(2);
             this.endFrame.Name = "endFrame";
-            this.endFrame.Size = new System.Drawing.Size(61, 20);
+            this.endFrame.Size = new System.Drawing.Size(61, 21);
             this.endFrame.TabIndex = 10;
             this.endFrame.Text = "1000";
             this.endFrame.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.IsNumberPressed);
             // 
             // startFrame
             // 
-            this.startFrame.Location = new System.Drawing.Point(118, 114);
+            this.startFrame.Location = new System.Drawing.Point(118, 105);
             this.startFrame.Margin = new System.Windows.Forms.Padding(2);
             this.startFrame.Name = "startFrame";
-            this.startFrame.Size = new System.Drawing.Size(61, 20);
+            this.startFrame.Size = new System.Drawing.Size(61, 21);
             this.startFrame.TabIndex = 9;
             this.startFrame.Text = "0";
             this.startFrame.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.IsNumberPressed);
@@ -814,10 +814,10 @@
             // 
             this.speciesList.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.speciesList.FormattingEnabled = true;
-            this.speciesList.Location = new System.Drawing.Point(118, 85);
+            this.speciesList.Location = new System.Drawing.Point(118, 78);
             this.speciesList.Margin = new System.Windows.Forms.Padding(2);
             this.speciesList.Name = "speciesList";
-            this.speciesList.Size = new System.Drawing.Size(141, 21);
+            this.speciesList.Size = new System.Drawing.Size(141, 20);
             this.speciesList.TabIndex = 8;
             this.speciesList.SelectedIndexChanged += new System.EventHandler(this.SpeciesList_SelectedIndexChanged);
             // 
@@ -826,293 +826,293 @@
             this.denBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.denBox.FormattingEnabled = true;
             this.denBox.Items.AddRange(new object[] {
-            "1 [b]: Rolling Fields 1",
-            "2 [b]: Rolling Fields 2",
-            "3 [b]: Rolling Fields 3",
-            "4 [b]: Rolling Fields 4",
-            "5 [b]: Rolling Fields 5",
-            "6 [b]: Rolling Fields 6",
-            "7 [b]: Rolling Fields 7",
-            "8 [b]: Rolling Fields 8",
-            "9 [b]: Rolling Fields 9",
-            "10 [b]: Dappled Grove 1",
-            "11 [b]: Dappled Grove 2",
-            "12 [b]: Dappled Grove 3",
-            "13 [b]: Dappled Grove 4",
-            "14 [b]: Dappled Grove 5",
-            "15 [b]: Watchtower Ruins 1",
-            "16 [b]: Watchtower Ruins 2",
-            "17 [b]: Watchtower Ruins 3",
-            "18 [b]: East Lake Axewell 1",
-            "19 [b]: East Lake Axewell 2",
-            "20 [b]: East Lake Axewell 3",
-            "21 [b]: East Lake Axewell 4",
-            "22 [b]: West Lake Axewell 1",
-            "23 [b]: West Lake Axewell 2",
-            "24 [b]: West Lake Axewell 3",
-            "25 [b]: West Lake Axewell 4",
-            "26 [b]: West Lake Axewell 5",
-            "27 [b]: West Lake Axewell 6",
-            "28 [b]: Axew’s Eye 1",
-            "29 [b]: South Lake Miloch 1",
-            "30 [b]: South Lake Miloch 2",
-            "31 [b]: South Lake Miloch 3",
-            "32 [b]: South Lake Miloch 4",
-            "33 [b]: South Lake Miloch 5",
-            "34 [b]: Giant’s Seat 1",
-            "35 [b]: Giant’s Seat 2",
-            "36 [b]: Giant’s Seat 3",
-            "37 [b]: Giant’s Seat 4",
-            "38 [b]: Giant’s Seat 5",
-            "39 [b]: North Lake Miloch 1",
-            "40 [b]: North Lake Miloch 2",
-            "41 [b]: North Lake Miloch 3",
-            "42 [b]: North Lake Miloch 4",
-            "43 [b]: North Lake Miloch 5",
-            "44 [b]: East Lake Axewell 5",
-            "45 [b]: North Lake Miloch 6",
-            "46 [b]: Motostoke Riverbank 1",
-            "47 [b]: Motostoke Riverbank 2",
-            "48 [b]: Motostoke Riverbank 3",
-            "49 [b]: Motostoke Riverbank 4",
-            "50 [b]: Bridge Field 1",
-            "51 [b]: Bridge Field 2",
-            "52 [b]: Bridge Field 3",
-            "53 [b]: Bridge Field 4",
-            "54 [b]: Bridge Field 5",
-            "55 [b]: Bridge Field 6",
-            "56 [b]: Bridge Field 7",
-            "57 [b]: Bridge Field 8",
-            "58 [b]: Bridge Field 9",
-            "59 [b]: Stony Wilderness 1",
-            "60 [b]: Stony Wilderness 2",
-            "61 [b]: Stony Wilderness 3",
-            "62 [b]: Stony Wilderness 4",
-            "63 [b]: Stony Wilderness 5",
-            "64 [b]: Stony Wilderness 6",
-            "65 [b]: Stony Wilderness 7",
-            "66 [b]: Stony Wilderness 8",
-            "67 [b]: Stony Wilderness 9",
-            "68 [b]: Stony Wilderness 10",
-            "69 [b]: Stony Wilderness 11",
-            "70 [b]: Stony Wilderness 12",
-            "71 [b]: Dusty Bowl 1",
-            "72 [b]: Dusty Bowl 2",
-            "73 [b]: Dusty Bowl 3",
-            "74 [b]: Dusty Bowl 4",
-            "75 [b]: Dusty Bowl 5",
-            "76 [b]: Dusty Bowl 6",
-            "77 [b]: Dusty Bowl 7",
-            "78 [b]: Dusty Bowl 8",
-            "79 [b]: Giant’s Mirror 1",
-            "80 [b]: Dusty Bowl 9",
-            "81 [b]: Giant’s Mirror 2",
-            "82 [b]: Giant’s Mirror 3",
-            "83 [b]: Giant’s Mirror 4",
-            "84 [b]: Giant’s Mirror 5",
-            "85 [b]: Hammerlocke Hills 1",
-            "86 [b]: Hammerlocke Hills 2",
-            "87 [b]: Hammerlocke Hills 3",
-            "88 [b]: Hammerlocke Hills 4",
-            "89 [b]: Hammerlocke Hills 5",
-            "90 [b]: Hammerlocke Hills 6",
-            "91 [b]: Hammerlocke Hills 7",
-            "92 [b]: Giant’s Cap 1",
-            "93 [b]: Giant’s Cap 2",
-            "94 [b]: Giant’s Cap 3",
-            "95 [b]: Giant’s Cap 4",
-            "96 [b]: Giant’s Cap 5",
-            "97 [b]: Lake of Outrage 1",
-            "98 [b]: Lake of Outrage 2",
-            "99 [b]: Lake of Outrage 3",
-            "100 [b]: Lake of Outrage 4",
-            "1 [IoA]: Fields of Honor 1",
-            "2 [IoA]: Fields of Honor 2",
-            "3 [IoA]: Fields of Honor 3",
-            "4 [IoA]: Fields of Honor 4",
-            "5 [IoA]: Fields of Honor 5",
-            "6 [IoA]: Fields of Honor 6",
-            "7 [IoA]: Fields of Honor 7",
-            "8 [IoA]: Fields of Honor 8",
-            "9 [IoA]: Fields of Honor 9",
-            "10 [IoA]: Fields of Honor 10",
-            "11 [IoA]: Soothing Wetlands 1",
-            "12 [IoA]: Soothing Wetlands 2",
-            "13 [IoA]: Soothing Wetlands 3",
-            "14 [IoA]: Soothing Wetlands 4",
-            "15 [IoA]: Soothing Wetlands 5",
-            "16 [IoA]: Soothing Wetlands 6",
-            "17 [IoA]: Soothing Wetlands 7",
-            "18 [IoA]: Soothing Wetlands 8",
-            "19 [IoA]: Soothing Wetlands 9",
-            "20 [IoA]: Forest of Focus 1",
-            "21 [IoA]: Forest of Focus 2",
-            "22 [IoA]: Forest of Focus 3",
-            "23 [IoA]: Forest of Focus 4",
-            "24 [IoA]: Forest of Focus 5",
-            "25 [IoA]: Forest of Focus 6",
-            "26 [IoA]: Challenge Beach 1",
-            "27 [IoA]: Challenge Beach 2",
-            "28 [IoA]: Challenge Beach 3",
-            "29 [IoA]: Challenge Beach 4",
-            "30 [IoA]: Challenge Beach 5",
-            "31 [IoA]: Challenge Beach 6",
-            "32 [IoA]: Challenge Beach 7",
-            "33 [IoA]: Challenge Beach 8",
-            "34 [IoA]: Brawlers’ Cave 1",
-            "35 [IoA]: Challenge Road 1",
-            "36 [IoA]: Challenge Road 2",
-            "37 [IoA]: Challenge Road 3",
-            "38 [IoA]: Challenge Road 4",
-            "39 [IoA]: Courageous Cavern 1",
-            "40 [IoA]: Courageous Cavern 2",
-            "41 [IoA]: Courageous Cavern 3",
-            "42 [IoA]: Courageous Cavern 4",
-            "43 [IoA]: Courageous Cavern 5",
-            "44 [IoA]: Courageous Cavern 6",
-            "45 [IoA]: Loop Lagoon 1",
-            "46 [IoA]: Loop Lagoon 2",
-            "47 [IoA]: Loop Lagoon 3",
-            "48 [IoA]: Loop Lagoon 4",
-            "49 [IoA]: Training Lowlands 1",
-            "50 [IoA]: Training Lowlands 2",
-            "51 [IoA]: Training Lowlands 3",
-            "52 [IoA]: Training Lowlands 4",
-            "53 [IoA]: Training Lowlands 5",
-            "54 [IoA]: Training Lowlands 6",
-            "55 [IoA]: Training Lowlands 7",
-            "56 [IoA]: Potbottom Desert 1",
-            "57 [IoA]: Potbottom Desert 2",
-            "58 [IoA]: Potbottom Desert 3",
-            "59 [IoA]: Workout Sea 1",
-            "60 [IoA]: Workout Sea 2",
-            "61 [IoA]: Workout Sea 3",
-            "62 [IoA]: Workout Sea 4",
-            "63 [IoA]: Workout Sea 5",
-            "64 [IoA]: Workout Sea 6",
-            "65 [IoA]: Workout Sea 7",
-            "66 [IoA]: Stepping-Stone Sea 1",
-            "67 [IoA]: Stepping-Stone Sea 2",
-            "68 [IoA]: Stepping-Stone Sea 3",
-            "69 [IoA]: Stepping-Stone Sea 4",
-            "70 [IoA]: Stepping-Stone Sea 5",
-            "71 [IoA]: Stepping-Stone Sea 6",
-            "72 [IoA]: Stepping-Stone Sea 7",
-            "73 [IoA]: Stepping-Stone Sea 8",
-            "74 [IoA]: Stepping-Stone Sea 9",
-            "75 [IoA]: Insular Sea 1",
-            "76 [IoA]: Insular Sea 2",
-            "77 [IoA]: Insular Sea 3",
-            "78 [IoA]: Insular Sea 4",
-            "79 [IoA]: Insular Sea 5",
-            "80 [IoA]: Honeycalm Sea 1",
-            "81 [IoA]: Honeycalm Sea 2",
-            "82 [IoA]: Honeycalm Sea 3",
-            "83 [IoA]: Honeycalm Sea 4",
-            "84 [IoA]: Honeycalm Sea 5",
-            "85 [IoA]: Honeycalm Island 1",
-            "86 [IoA]: Honeycalm Island 2",
-            "87 [IoA]: Honeycalm Island 3",
-            "88 [IoA]: Honeycalm Island 4",
-            "89 [IoA]: Honeycalm Island 5",
-            "90 [IoA]: Honeycalm Island 6",
-            "1 [CT]: Slippery Slope 1",
-            "2 [CT]: Slippery Slope 2",
-            "3 [CT]: Slippery Slope 3",
-            "4 [CT]: Slippery Slope 4",
-            "5 [CT]: Slippery Slope 5",
-            "6 [CT]: Slippery Slope 6",
-            "7 [CT]: Frostpoint Field 1",
-            "8 [CT]: Frostpoint Field 2",
-            "9 [CT]: Frostpoint Field 3",
-            "10 [CT]: Frostpoint Field 4",
-            "11 [CT]: Frostpoint Field 5",
-            "12 [CT]: Giant’s Bed 1",
-            "13 [CT]: Giant’s Bed 10",
-            "14 [CT]: Giant’s Bed 11",
-            "15 [CT]: Giant’s Bed 12",
-            "16 [CT]: Giant’s Bed 13",
-            "17 [CT]: Giant’s Bed 14",
-            "18 [CT]: Giant’s Bed 15",
-            "19 [CT]: Giant’s Bed 16",
-            "20 [CT]: Giant’s Bed 17",
-            "21 [CT]: Giant’s Bed 18",
-            "22 [CT]: Giant’s Bed 19",
-            "23 [CT]: Giant’s Bed 2",
-            "24 [CT]: Giant’s Bed 20",
-            "25 [CT]: Giant’s Bed 21",
-            "26 [CT]: Giant’s Bed 3",
-            "27 [CT]: Giant’s Bed 4",
-            "28 [CT]: Giant’s Bed 5",
-            "29 [CT]: Giant’s Bed 6",
-            "30 [CT]: Giant’s Bed 7",
-            "31 [CT]: Giant’s Bed 8",
-            "32 [CT]: Giant’s Bed 9",
-            "33 [CT]: Old Cemetery 1",
-            "34 [CT]: Old Cemetery 2",
-            "35 [CT]: Snowslide Slope 1",
-            "36 [CT]: Snowslide Slope 2",
-            "37 [CT]: Snowslide Slope 3",
-            "38 [CT]: Snowslide Slope 4",
-            "39 [CT]: Snowslide Slope 5",
-            "40 [CT]: Snowslide Slope 6",
-            "41 [CT]: Snowslide Slope 7",
-            "42 [CT]: Snowslide Slope 8",
-            "43 [CT]: Snowslide Slope 9",
-            "44 [CT]: Path to the Peak 1",
-            "45 [CT]: Path to the Peak 2",
-            "46 [CT]: Path to the Peak 3",
-            "47 [CT]: Crown Shrine 1",
-            "48 [CT]: Giant’s Foot 1",
-            "49 [CT]: Giant’s Foot 2",
-            "50 [CT]: Giant’s Foot 3",
-            "51 [CT]: Giant’s Foot 4",
-            "52 [CT]: Giant’s Foot 5",
-            "53 [CT]: Frigid Sea 1",
-            "54 [CT]: Frigid Sea 10",
-            "55 [CT]: Frigid Sea 11",
-            "56 [CT]: Frigid Sea 12",
-            "57 [CT]: Frigid Sea 13",
-            "58 [CT]: Frigid Sea 14",
-            "59 [CT]: Frigid Sea 2",
-            "60 [CT]: Frigid Sea 3",
-            "61 [CT]: Frigid Sea 4",
-            "62 [CT]: Frigid Sea 5",
-            "63 [CT]: Frigid Sea 6",
-            "64 [CT]: Frigid Sea 7",
-            "65 [CT]: Frigid Sea 8",
-            "66 [CT]: Frigid Sea 9",
-            "67 [CT]: Three-Point Pass 1",
-            "68 [CT]: Three-Point Pass 2",
-            "69 [CT]: Ballimere Lake 1",
-            "70 [CT]: Ballimere Lake 10",
-            "71 [CT]: Ballimere Lake 11",
-            "72 [CT]: Ballimere Lake 12",
-            "73 [CT]: Ballimere Lake 13",
-            "74 [CT]: Ballimere Lake 14",
-            "75 [CT]: Ballimere Lake 15",
-            "76 [CT]: Ballimere Lake 16",
-            "77 [CT]: Ballimere Lake 17",
-            "78 [CT]: Ballimere Lake 2",
-            "79 [CT]: Ballimere Lake 3",
-            "80 [CT]: Ballimere Lake 4",
-            "81 [CT]: Ballimere Lake 5",
-            "82 [CT]: Ballimere Lake 6",
-            "83 [CT]: Ballimere Lake 7",
-            "84 [CT]: Ballimere Lake 8",
-            "85 [CT]: Ballimere Lake 9",
-            "86 [CT]: Dyna Tree Hill 1"});
-            this.denBox.Location = new System.Drawing.Point(118, 57);
+            "1 [旷野]: 煦丽草原 1",
+            "2 [旷野]: 煦丽草原 2",
+            "3 [旷野]: 煦丽草原 3",
+            "4 [旷野]: 煦丽草原 4",
+            "5 [旷野]: 煦丽草原 5",
+            "6 [旷野]: 煦丽草原 6",
+            "7 [旷野]: 煦丽草原 7",
+            "8 [旷野]: 煦丽草原 8",
+            "9 [旷野]: 煦丽草原 9",
+            "10 [旷野]: 沐光森林 1",
+            "11 [旷野]: 沐光森林 2",
+            "12 [旷野]: 沐光森林 3",
+            "13 [旷野]: 沐光森林 4",
+            "14 [旷野]: 沐光森林 5",
+            "15 [旷野]: 瞭望塔旧址 1",
+            "16 [旷野]: 瞭望塔旧址 2",
+            "17 [旷野]: 瞭望塔旧址 3",
+            "18 [旷野]: 牙牙湖东岸 1",
+            "19 [旷野]: 牙牙湖东岸 2",
+            "20 [旷野]: 牙牙湖东岸 3",
+            "21 [旷野]: 牙牙湖东岸 4",
+            "22 [旷野]: 牙牙湖西岸 1",
+            "23 [旷野]: 牙牙湖西岸 2",
+            "24 [旷野]: 牙牙湖西岸 3",
+            "25 [旷野]: 牙牙湖西岸 4",
+            "26 [旷野]: 牙牙湖西岸 5",
+            "27 [旷野]: 牙牙湖西岸 6",
+            "28 [旷野]: 牙牙湖之眼 1",
+            "29 [旷野]: 美纳斯湖南岸 1",
+            "30 [旷野]: 美纳斯湖南岸 2",
+            "31 [旷野]: 美纳斯湖南岸 3",
+            "32 [旷野]: 美纳斯湖南岸 4",
+            "33 [旷野]: 美纳斯湖南岸 5",
+            "34 [旷野]: 巨人凳岩 1",
+            "35 [旷野]: 巨人凳岩 2",
+            "36 [旷野]: 巨人凳岩 3",
+            "37 [旷野]: 巨人凳岩 4",
+            "38 [旷野]: 巨人凳岩 5",
+            "39 [旷野]: 美纳斯湖北岸 1",
+            "40 [旷野]: 美纳斯湖北岸 2",
+            "41 [旷野]: 美纳斯湖北岸 3",
+            "42 [旷野]: 美纳斯湖北岸 4",
+            "43 [旷野]: 美纳斯湖北岸 5",
+            "44 [旷野]: 牙牙湖东岸 5",
+            "45 [旷野]: 美纳斯湖北岸 6",
+            "46 [旷野]: 机擎河岸 1",
+            "47[旷野]: 机擎河岸 2",
+            "48 [旷野]: 机擎河岸 3",
+            "49 [旷野]: 机擎河岸 4",
+            "50 [旷野]: 桥间空地 1",
+            "51 [旷野]: 桥间空地 2",
+            "52 [旷野]: 桥间空地 3",
+            "53 [旷野]: 桥间空地 4",
+            "54 [旷野]: 桥间空地 5",
+            "55 [旷野]: 桥间空地 6",
+            "56 [旷野]: 桥间空地 7",
+            "57 [旷野]: 桥间空地 8",
+            "58 [旷野]: 桥间空地 9",
+            "59 [旷野]: 巨石原野 1",
+            "60 [旷野]: 巨石原野 2",
+            "61 [旷野]: 巨石原野 3",
+            "62 [旷野]: 巨石原野 4",
+            "63 [旷野]: 巨石原野 5",
+            "64 [旷野]: 巨石原野 6",
+            "65 [旷野]: 巨石原野 7",
+            "66 [旷野]: 巨石原野 8",
+            "67 [旷野]: 巨石原野 9",
+            "68 [旷野]: 巨石原野 10",
+            "69 [旷野]: 巨石原野 11",
+            "70 [旷野]: 巨石原野 12",
+            "71 [旷野]: 沙尘洼地 1",
+            "72 [旷野]: 沙尘洼地 2",
+            "73 [旷野]: 沙尘洼地 3",
+            "74 [旷野]: 沙尘洼地 4",
+            "75 [旷野]: 沙尘洼地 5",
+            "76 [旷野]: 沙尘洼地 6",
+            "77 [旷野]: 沙尘洼地 7",
+            "78 [旷野]: 沙尘洼地 8",
+            "79 [旷野]: 巨人镜池 1",
+            "80 [旷野]: 沙尘洼地 9",
+            "81 [旷野]: 巨人镜池 2",
+            "82 [旷野]: 巨人镜池 3",
+            "83 [旷野]: 巨人镜池 4",
+            "84 [旷野]: 巨人镜池 5",
+            "85 [旷野]: 拳关丘陵 1",
+            "86 [旷野]: 拳关丘陵 2",
+            "87 [旷野]: 拳关丘陵 3",
+            "88 [旷野]: 拳关丘陵 4",
+            "89 [旷野]: 拳关丘陵 5",
+            "90 [旷野]: 拳关丘陵 6",
+            "91 [旷野]: 拳关丘陵 7",
+            "92 [旷野]: 巨人帽岩 1",
+            "93 [旷野]: 巨人帽岩 2",
+            "94 [旷野]: 巨人帽岩 3",
+            "95 [旷野]: 巨人帽岩 4",
+            "96 [旷野]: 巨人帽岩 5",
+            "97 [旷野]: 逆鳞湖 1",
+            "98 [旷野]: 逆鳞湖 2",
+            "99 [旷野]: 逆鳞湖 3",
+            "100 [旷野]: 逆鳞湖 4",
+            "1 [铠岛]: 揖礼原野 1",
+            "2 [铠岛]: 揖礼原野 2",
+            "3 [铠岛]: 揖礼原野 3",
+            "4 [铠岛]: 揖礼原野 4",
+            "5 [铠岛]: 揖礼原野 5",
+            "6 [铠岛]: 揖礼原野 6",
+            "7 [铠岛]: 揖礼原野 7",
+            "8 [铠岛]: 揖礼原野 8",
+            "9 [铠岛]: 揖礼原野 9",
+            "10 [铠岛]: 揖礼原野 10",
+            "11 [铠岛]: 清凉湿原 1",
+            "12 [铠岛]: 清凉湿原 2",
+            "13 [铠岛]: 清凉湿原 3",
+            "14 [铠岛]: 清凉湿原 4",
+            "15 [铠岛]: 清凉湿原 5",
+            "16 [铠岛]: 清凉湿原 6",
+            "17 [铠岛]: 清凉湿原 7",
+            "18 [铠岛]: 清凉湿原 8",
+            "19 [铠岛]: 清凉湿原 9",
+            "20 [铠岛]: 专注森林 1",
+            "21 [铠岛]: 专注森林 2",
+            "22 [铠岛]: 专注森林 3",
+            "23 [铠岛]: 专注森林 4",
+            "24 [铠岛]: 专注森林 5",
+            "25 [铠岛]: 专注森林 6",
+            "26 [铠岛]: 挑战海滩 1",
+            "27 [铠岛]: 挑战海滩 2",
+            "28 [铠岛]: 挑战海滩 3",
+            "29 [铠岛]: 挑战海滩 4",
+            "30 [铠岛]: 挑战海滩 5",
+            "31 [铠岛]: 挑战海滩 6",
+            "32 [铠岛]: 挑战海滩 7",
+            "33 [铠岛]: 挑战海滩 8",
+            "34 [铠岛]: 战斗洞窟 1",
+            "35 [铠岛]: 挑战之路 1",
+            "36 [铠岛]: 挑战之路 2",
+            "37 [铠岛]: 挑战之路 3",
+            "38 [铠岛]: 挑战之路 4",
+            "39 [铠岛]: 斗志洞窟 1",
+            "40 [铠岛]: 斗志洞窟 2",
+            "41 [铠岛]: 斗志洞窟 3",
+            "42 [铠岛]: 斗志洞窟 4",
+            "43 [铠岛]: 斗志洞窟 5",
+            "44 [铠岛]: 斗志洞窟 6",
+            "45 [铠岛]: 圆环海湾 1",
+            "46 [铠岛]: 圆环海湾 2",
+            "47 [铠岛]: 圆环海湾 3",
+            "48 [铠岛]: 圆环海湾 4",
+            "49 [铠岛]: 锻炼平原 1",
+            "50 [铠岛]: 锻炼平原 2",
+            "51 [铠岛]: 锻炼平原 3",
+            "52 [铠岛]: 锻炼平原 4",
+            "53 [铠岛]: 锻炼平原 5",
+            "54 [铠岛]: 锻炼平原 6",
+            "55 [铠岛]: 锻炼平原 7",
+            "56 [铠岛]: 锅底沙漠 1",
+            "57 [铠岛]: 锅底沙漠 2",
+            "58 [铠岛]: 锅底沙漠 3",
+            "59 [铠岛]: 健身之海 1",
+            "60 [铠岛]: 健身之海 2",
+            "61 [铠岛]: 健身之海 3",
+            "62 [铠岛]: 健身之海 4",
+            "63 [铠岛]: 健身之海 5",
+            "64 [铠岛]: 健身之海 6",
+            "65 [铠岛]: 健身之海 7",
+            "66 [铠岛]: 列岛海域 1",
+            "67 [铠岛]: 列岛海域 2",
+            "68 [铠岛]: 列岛海域 3",
+            "69 [铠岛]: 列岛海域 4",
+            "70 [铠岛]: 列岛海域 5",
+            "71 [铠岛]: 列岛海域 6",
+            "72 [铠岛]: 列岛海域 7",
+            "73 [铠岛]: 列岛海域 8",
+            "74 [铠岛]: 列岛海域 9",
+            "75 [铠岛]: 离岛海域 1",
+            "76 [铠岛]: 离岛海域 2",
+            "77 [铠岛]: 离岛海域 3",
+            "78 [铠岛]: 离岛海域 4",
+            "79 [铠岛]: 离岛海域 5",
+            "80 [铠岛]: 蜂巢海 1",
+            "81 [铠岛]: 蜂巢海 2",
+            "82 [铠岛]: 蜂巢海 3",
+            "83 [铠岛]: 蜂巢海 4",
+            "84 [铠岛]: 蜂巢海 5",
+            "85 [铠岛]: 蜂巢岛 1",
+            "86 [铠岛]: 蜂巢岛 2",
+            "87 铠岛]: 蜂巢岛 3",
+            "88 铠岛]: 蜂巢岛 4",
+            "89 铠岛]: 蜂巢岛 5",
+            "90 铠岛]: 蜂巢岛 6",
+            "1 [雪原]: 起橇雪原 1",
+            "2 [雪原]: 起橇雪原 2",
+            "3 [雪原]: 起橇雪原 3",
+            "4 [雪原]: 起橇雪原 4",
+            "5 [雪原]: 起橇雪原 5",
+            "6 [雪原]: 起橇雪原 6",
+            "7 [雪原]: 冰点雪原 1",
+            "8 [雪原]: 冰点雪原 2",
+            "9 [雪原]: 冰点雪原 3",
+            "10 [雪原]: 冰点雪原 4",
+            "11 [雪原]: 冰点雪原 5",
+            "12 [雪原]: 巨人睡榻 1",
+            "13 [雪原]: 巨人睡榻 2",
+            "14 [雪原]: 巨人睡榻 3",
+            "15 [雪原]: 巨人睡榻 4",
+            "16 [雪原]: 巨人睡榻 5",
+            "17 [雪原]: 巨人睡榻 6",
+            "18 [雪原]: 巨人睡榻 7",
+            "19 [雪原]: 巨人睡榻 8",
+            "20 [雪原]: 巨人睡榻 9",
+            "21 [雪原]: 巨人睡榻 10",
+            "22 [雪原]: 巨人睡榻 11",
+            "23 [雪原]: 巨人睡榻 12",
+            "24 [雪原]: 巨人睡榻 13",
+            "25 [雪原]: 巨人睡榻 14",
+            "26 [雪原]: 巨人睡榻 15",
+            "27 [雪原]: 巨人睡榻 16",
+            "28 [雪原]: 巨人睡榻 17",
+            "29 [雪原]: 巨人睡榻 18",
+            "30 [雪原]: 巨人睡榻 19",
+            "31 [雪原]: 巨人睡榻 20",
+            "32 [雪原]: 巨人睡榻 21",
+            "33 [雪原]: 远古墓地 1",
+            "34 [雪原]: 远古墓地 2",
+            "35 [雪原]: 雪中溪谷 1",
+            "36 [雪原]: 雪中溪谷 2",
+            "37 [雪原]: 雪中溪谷 3",
+            "38 [雪原]: 雪中溪谷 4",
+            "39 [雪原]: 雪中溪谷 5",
+            "40 [[雪原]: 雪中溪谷 6",
+            "41 [雪原]: 雪中溪谷 7",
+            "42 [雪原]: 雪中溪谷 8",
+            "43 [雪原]: 雪中溪谷 9",
+            "44 [雪原]: 通顶雪道 1",
+            "45 [雪原]: 通顶雪道 2",
+            "46 [雪原]: 通顶雪道 3",
+            "47 [雪原]: 王冠神殿 1",
+            "48 [雪原]: 巨人鞋底 1",
+            "49 [雪原]: 巨人鞋底 2",
+            "50 [雪原]: 巨人鞋底 3",
+            "51 [雪原]: 巨人鞋底 4",
+            "52 [雪原]: 巨人鞋底 5",
+            "53 [雪原]: 冻海 1",
+            "54 [雪原]: 冻海 2",
+            "55 [雪原]: 冻海 3",
+            "56 [雪原]: 冻海 4",
+            "57 [雪原]: 冻海 5",
+            "58 [雪原]: 冻海 6",
+            "59 [雪原]: 冻海 7",
+            "60 [雪原]: 冻海 8",
+            "61 [雪原]: 冻海 9",
+            "62 [雪原]: 冻海 10",
+            "63 [雪原]: 冻海 11",
+            "64 [雪原]: 冻海 12",
+            "65 [雪原]: 冻海 13",
+            "66 [雪原]: 冻海 14",
+            "67 [雪原]: 三岔平原 1",
+            "68 [雪原]: 三岔平原 2",
+            "69 [雪原]: 球湖湖畔 1",
+            "70 [雪原]: 球湖湖畔 2",
+            "71 [雪原]: 球湖湖畔 3",
+            "72 [雪原]: 球湖湖畔 4",
+            "73 [雪原]: 球湖湖畔 5",
+            "74 [雪原]: 球湖湖畔 6",
+            "75 [雪原]: 球湖湖畔 7",
+            "76 [雪原]: 球湖湖畔 8",
+            "77 [雪原]: 球湖湖畔 9",
+            "78 [雪原]: 球湖湖畔 10",
+            "79 [雪原]: 球湖湖畔 11",
+            "80 [雪原]: 球湖湖畔 12",
+            "81 [雪原]: 球湖湖畔 13",
+            "82 [雪原]: 球湖湖畔 14",
+            "83 [雪原]: 球湖湖畔 15",
+            "84 [雪原]: 球湖湖畔 16",
+            "85 [雪原]: 球湖湖畔 17",
+            "86 [雪原]: 巨树丘陵 1"});
+            this.denBox.Location = new System.Drawing.Point(118, 53);
             this.denBox.Margin = new System.Windows.Forms.Padding(2);
             this.denBox.Name = "denBox";
-            this.denBox.Size = new System.Drawing.Size(141, 21);
+            this.denBox.Size = new System.Drawing.Size(141, 20);
             this.denBox.TabIndex = 7;
             this.denBox.SelectedIndexChanged += new System.EventHandler(this.DenBox_SelectedIndexChanged);
             // 
             // seedBox
             // 
             this.seedBox.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seedBox.Location = new System.Drawing.Point(118, 28);
+            this.seedBox.Location = new System.Drawing.Point(118, 26);
             this.seedBox.Margin = new System.Windows.Forms.Padding(2);
             this.seedBox.MaxLength = 16;
             this.seedBox.Name = "seedBox";
@@ -1122,67 +1122,67 @@
             // 
             // generateData
             // 
-            this.generateData.Location = new System.Drawing.Point(14, 147);
+            this.generateData.Location = new System.Drawing.Point(14, 136);
             this.generateData.Margin = new System.Windows.Forms.Padding(2);
             this.generateData.Name = "generateData";
-            this.generateData.Size = new System.Drawing.Size(244, 24);
+            this.generateData.Size = new System.Drawing.Size(244, 22);
             this.generateData.TabIndex = 5;
-            this.generateData.Text = "Show";
+            this.generateData.Text = "生成";
             this.generateData.UseVisualStyleBackColor = true;
             this.generateData.Click += new System.EventHandler(this.GenerateData_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(14, 114);
+            this.label4.Location = new System.Drawing.Point(14, 105);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(41, 13);
+            this.label4.Size = new System.Drawing.Size(17, 12);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Frames";
+            this.label4.Text = "帧";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(14, 85);
+            this.label3.Location = new System.Drawing.Point(14, 78);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 13);
+            this.label3.Size = new System.Drawing.Size(41, 12);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Species";
+            this.label3.Text = "宝可梦";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 57);
+            this.label2.Location = new System.Drawing.Point(14, 53);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 13);
+            this.label2.Size = new System.Drawing.Size(29, 12);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Den";
+            this.label2.Text = "巢穴";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 28);
+            this.label1.Location = new System.Drawing.Point(14, 26);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 13);
+            this.label1.Size = new System.Drawing.Size(29, 12);
             this.label1.TabIndex = 0;
             this.label1.Text = "Seed";
             // 
             // DenIVs
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(946, 709);
+            this.ClientSize = new System.Drawing.Size(946, 654);
             this.Controls.Add(this.DetailsBox);
             this.Controls.Add(this.raidContent);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DenIVs";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Den Search";
+            this.Text = "Seed检索器";
             ((System.ComponentModel.ISupportInitialize)(this.raidContent)).EndInit();
             this.DetailsBox.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
