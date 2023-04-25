@@ -260,7 +260,7 @@
             this.L_Atk.Name = "L_Atk";
             this.L_Atk.Size = new System.Drawing.Size(50, 20);
             this.L_Atk.TabIndex = 18;
-            this.L_Atk.Text = "攻击:";
+            this.L_Atk.Text = "物攻:";
             this.L_Atk.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // L_ShinyInFrames
@@ -431,7 +431,7 @@
             "44 [旷野]: 牙牙湖东岸 5",
             "45 [旷野]: 美纳斯湖北岸 6",
             "46 [旷野]: 机擎河岸 1",
-            "47[旷野]: 机擎河岸 2",
+            "47 [旷野]: 机擎河岸 2",
             "48 [旷野]: 机擎河岸 3",
             "49 [旷野]: 机擎河岸 4",
             "50 [旷野]: 桥间空地 1",
@@ -571,10 +571,10 @@
             "84 [铠岛]: 蜂巢海 5",
             "85 [铠岛]: 蜂巢岛 1",
             "86 [铠岛]: 蜂巢岛 2",
-            "87 铠岛]: 蜂巢岛 3",
-            "88 铠岛]: 蜂巢岛 4",
-            "89 铠岛]: 蜂巢岛 5",
-            "90 铠岛]: 蜂巢岛 6",
+            "87 [铠岛]: 蜂巢岛 3",
+            "88 [铠岛]: 蜂巢岛 4",
+            "89 [铠岛]: 蜂巢岛 5",
+            "90 [铠岛]: 蜂巢岛 6",
             "1 [雪原]: 起橇雪原 1",
             "2 [雪原]: 起橇雪原 2",
             "3 [雪原]: 起橇雪原 3",
@@ -614,7 +614,7 @@
             "37 [雪原]: 雪中溪谷 3",
             "38 [雪原]: 雪中溪谷 4",
             "39 [雪原]: 雪中溪谷 5",
-            "40 [[雪原]: 雪中溪谷 6",
+            "40 [雪原]: 雪中溪谷 6",
             "41 [雪原]: 雪中溪谷 7",
             "42 [雪原]: 雪中溪谷 8",
             "43 [雪原]: 雪中溪谷 9",
@@ -706,7 +706,7 @@
             this.Name = "RaidList";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "巢穴信息";
+            this.Text = "极巨巢穴信息";
             this.GB_Left.ResumeLayout(false);
             this.GB_Left.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PB_PK1)).EndInit();

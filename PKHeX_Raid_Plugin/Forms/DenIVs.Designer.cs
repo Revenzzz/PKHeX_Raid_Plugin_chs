@@ -159,7 +159,7 @@
             // AtkCell
             // 
             this.AtkCell.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.AtkCell.HeaderText = "攻击";
+            this.AtkCell.HeaderText = "物攻";
             this.AtkCell.MinimumWidth = 6;
             this.AtkCell.Name = "AtkCell";
             this.AtkCell.ReadOnly = true;
@@ -726,7 +726,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(29, 12);
             this.label9.TabIndex = 3;
-            this.label9.Text = "攻击";
+            this.label9.Text = "物攻";
             // 
             // label8
             // 
@@ -778,7 +778,7 @@
             this.groupBox1.Size = new System.Drawing.Size(280, 174);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "巢穴详情";
+            this.groupBox1.Text = "极巨巢穴详情";
             // 
             // label5
             // 
@@ -872,7 +872,7 @@
             "44 [旷野]: 牙牙湖东岸 5",
             "45 [旷野]: 美纳斯湖北岸 6",
             "46 [旷野]: 机擎河岸 1",
-            "47[旷野]: 机擎河岸 2",
+            "47 [旷野]: 机擎河岸 2",
             "48 [旷野]: 机擎河岸 3",
             "49 [旷野]: 机擎河岸 4",
             "50 [旷野]: 桥间空地 1",
@@ -1012,10 +1012,10 @@
             "84 [铠岛]: 蜂巢海 5",
             "85 [铠岛]: 蜂巢岛 1",
             "86 [铠岛]: 蜂巢岛 2",
-            "87 铠岛]: 蜂巢岛 3",
-            "88 铠岛]: 蜂巢岛 4",
-            "89 铠岛]: 蜂巢岛 5",
-            "90 铠岛]: 蜂巢岛 6",
+            "87 [铠岛]: 蜂巢岛 3",
+            "88 [铠岛]: 蜂巢岛 4",
+            "89 [铠岛]: 蜂巢岛 5",
+            "90 [铠岛]: 蜂巢岛 6",
             "1 [雪原]: 起橇雪原 1",
             "2 [雪原]: 起橇雪原 2",
             "3 [雪原]: 起橇雪原 3",
@@ -1055,7 +1055,7 @@
             "37 [雪原]: 雪中溪谷 3",
             "38 [雪原]: 雪中溪谷 4",
             "39 [雪原]: 雪中溪谷 5",
-            "40 [[雪原]: 雪中溪谷 6",
+            "40 [雪原]: 雪中溪谷 6",
             "41 [雪原]: 雪中溪谷 7",
             "42 [雪原]: 雪中溪谷 8",
             "43 [雪原]: 雪中溪谷 9",

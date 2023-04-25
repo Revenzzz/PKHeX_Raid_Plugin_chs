@@ -42,7 +42,7 @@ namespace PKHeX_Raid_Plugin
             L_Nature.Text = $"性格: {s.natures[pkm.Nature]}";
             L_ShinyInFrames.Text = $"下一个闪光巢穴: {RandUtil.GetNextShinyFrame(raidParameters.Seed)}帧";
             L_Shiny.Visible = pkm.ShinyType != 0;
-            L_Shiny.Text = pkm.ShinyType == 1 ? "闪光: Star" : pkm.ShinyType == 2? (pkm.ForcedShinyType == 2 ? "闪光: 强制方块闪" : "闪光: 方块闪!!!") : "闪光: 锁定";
+            L_Shiny.Text = pkm.ShinyType == 1 ? "闪光: 星闪" : pkm.ShinyType == 2? (pkm.ForcedShinyType == 2 ? "闪光: 强制方块闪" : "闪光: 方块闪!!!") : "闪光: 锁定";
 
             for (int i = 0; i < 6; i++) { 
                 IVs[i].Text = $"{pkm.IVs[i]:00}";

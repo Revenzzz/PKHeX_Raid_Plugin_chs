@@ -67,7 +67,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(21, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "EC";
+            this.label1.Text = "加密常数";
             // 
             // label2
             // 
@@ -336,7 +336,7 @@
             this.Name = "SeedFinder";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Seed计算器";
+            this.Text = "极巨巢穴Seed计算器";
             ((System.ComponentModel.ISupportInitialize)(this.MinSpe)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.minSpd)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.minSpa)).EndInit();
